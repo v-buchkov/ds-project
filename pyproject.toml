@@ -1,15 +1,17 @@
 [project]
-name = "min-vol"
+name = "ds-project"
 version = "0.1.0"
 description = ""
 requires-python = "==3.12.5"
 dependencies = [
     "statsmodels>=0.14.4",
-    "scikit-learn>=1.5.2",
-    "numpy>=2.2.4",
-    "pandas>=2.2.3",
-    "matplotlib>=3.10.1",
-    "qpsolvers>=4.5.0"
+    "scikit-learn>=1.7.0",
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "matplotlib>=3.10.3",
+    "torch==2.7.1",
+    "pyarrow==20.0.0",
+    "fastparquet==2024.11.0"
 ]
 
 [tool.uv]
